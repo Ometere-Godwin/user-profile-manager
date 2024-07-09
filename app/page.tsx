@@ -50,7 +50,8 @@ export default function Home() {
   };
 
   return (
-    <main className="container border mt-20 mx-auto p-2 ">
+    <main className="container border mt-20 mx-auto p-2 flex flex-col gap-7">
+      <span className="font-bold text-2xl">User Profile Manager</span>
       <UserForm
         onAddUser={handleAddUser}
         onUpdateUser={handleUpdateUser}

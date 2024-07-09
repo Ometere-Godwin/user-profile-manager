@@ -20,7 +20,7 @@ export default function UserList({
     <>
       <ul className="list-disc pl-5">
         {users.map((user) => (
-          <li key={user.id} className="flex items-center mb-2">
+          <li key={user.id} className="flex items-center mb-2 gap-6">
             <span className="flex-grow">{user.name}</span>
             <button
               onClick={() => onEditUser(user)}
